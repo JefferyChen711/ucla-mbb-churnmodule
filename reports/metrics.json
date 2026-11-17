@@ -1,0 +1,23 @@
+{
+  "n_train": 2926,
+  "n_test": 1273,
+  "train_churn_rate": 0.16,
+  "test_churn_rate": 0.156,
+  "xgb_params": {
+    "max_depth": 4,
+    "learning_rate": 0.07,
+    "n_estimators": 200,
+    "min_child_weight": 5
+  },
+  "xgb_val_auc": 0.647,
+  "lr_test_auc": 0.645,
+  "xgb_test_auc": 0.647,
+  "lr_test_pr_auc": 0.298,
+  "xgb_test_pr_auc": 0.266,
+  "xgb_top10_lift": 2.21,
+  "xgb_top10_capture": 0.222,
+  "xgb_top20_capture": 0.404,
+  "lr_top20_capture": 0.354,
+  "test_churned_revenue": 405595.0,
+  "top20_churned_revenue_share": 0.289
+}
